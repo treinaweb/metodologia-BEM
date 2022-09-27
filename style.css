@@ -1,0 +1,19 @@
+.card {
+    width: 400px;
+    margin: 100px auto;
+    padding: 5px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.293);
+}
+
+.card__imagem {
+    width: 100%;
+}
+
+.card__titulo {
+    color: gray;
+}
+
+.card__link {
+    text-decoration: none;
+    color: black;
+}
