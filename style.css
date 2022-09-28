@@ -1,8 +1,18 @@
+.cards {
+    max-width: 900px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
 .card {
-    width: 400px;
-    margin: 100px auto;
     padding: 5px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.293);
+}
+
+.card--destaque {
+    background-color: aquamarine;
 }
 
 .card__imagem {
@@ -11,6 +21,11 @@
 
 .card__titulo {
     color: gray;
+    font-size: 1.5rem;
+}
+
+.card__titulo--destaque {
+    color: black;
 }
 
 .card__link {
