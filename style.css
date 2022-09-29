@@ -1,3 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    display: grid;
+    place-items: center;
+    padding: 15px 0;
+    background-color: black;
+}
+
+
+/* Primeira section */
+.introducao {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}   
+
+.introducao__titulo {
+    font-size: 2.5rem;
+}
+
+.introducao__texto {
+    color: #a1a1a1;
+}
+
+/* Section cars */
 .cards {
     max-width: 900px;
     margin: 50px auto;
