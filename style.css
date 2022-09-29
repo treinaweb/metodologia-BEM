@@ -37,12 +37,16 @@ html, body {
 }
 
 .card {
-    padding: 5px;
+    padding: 20px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.293);
 }
 
 .card--destaque {
-    background-color: aquamarine;
+    background-color: rgb(83, 92, 214);
+}
+
+.card--destaque2 {
+    background-color: #773eac;
 }
 
 .card__imagem {
@@ -50,15 +54,28 @@ html, body {
 }
 
 .card__titulo {
-    color: gray;
+    color: rgb(21, 21, 21);
     font-size: 1.5rem;
 }
 
 .card__titulo--destaque {
-    color: black;
+    color: #ffffff;
 }
+
 
 .card__link {
     text-decoration: none;
-    color: black;
+    color: #ffffff;
+}
+
+
+/* Section Final */
+.final {
+    margin: 70px 0;
+    text-align: center;
+}
+
+.final__texto {
+    max-width: 500px;
+    margin: 0 auto;
 }
